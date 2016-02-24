@@ -4644,13 +4644,13 @@ D = Direct mounting &lt;p&gt;
 <instance part="GND1" gate="1" x="73.66" y="43.18"/>
 <instance part="GND2" gate="1" x="73.66" y="48.26"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="P+1" gate="1" x="53.34" y="116.84" rot="R90"/>
-<instance part="P-2" gate="1" x="53.34" y="109.22" rot="R270"/>
-<instance part="P+3" gate="1" x="53.34" y="106.68" rot="R90"/>
+<instance part="P+1" gate="1" x="40.64" y="116.84" rot="R90"/>
+<instance part="P-2" gate="1" x="35.56" y="109.22" rot="R270"/>
+<instance part="P+3" gate="1" x="50.8" y="106.68" rot="R90"/>
 <instance part="GND4" gate="1" x="53.34" y="111.76" rot="R270"/>
 <instance part="P-1" gate="1" x="76.2" y="55.88" rot="R90"/>
 <instance part="P+2" gate="1" x="76.2" y="60.96" rot="R270"/>
-<instance part="GND6" gate="1" x="53.34" y="114.3" rot="R270"/>
+<instance part="GND6" gate="1" x="48.26" y="114.3" rot="R270"/>
 <instance part="GND7" gate="1" x="71.12" y="104.14"/>
 <instance part="R1" gate="G$1" x="93.98" y="111.76" rot="R180"/>
 <instance part="R2" gate="G$1" x="81.28" y="114.3" rot="R180"/>
@@ -4723,6 +4723,7 @@ D = Direct mounting &lt;p&gt;
 <segment>
 <pinref part="X5" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="50.8" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -4739,6 +4740,7 @@ D = Direct mounting &lt;p&gt;
 <segment>
 <pinref part="X5" gate="G$1" pin="5"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="53.34" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SAMPLE" class="0">
@@ -4777,6 +4779,7 @@ D = Direct mounting &lt;p&gt;
 <segment>
 <pinref part="X5" gate="G$1" pin="1"/>
 <pinref part="P+1" gate="1" pin="+15V"/>
+<wire x1="43.18" y1="116.84" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-15V" class="0">
@@ -4787,6 +4790,7 @@ D = Direct mounting &lt;p&gt;
 <segment>
 <pinref part="X5" gate="G$1" pin="4"/>
 <pinref part="P-2" gate="1" pin="-15V"/>
+<wire x1="38.1" y1="109.22" x2="55.88" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
